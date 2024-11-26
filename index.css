@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.container-one {
+    background: #6943FF;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 60px;
+    
+}
+
+#unit-input {
+    background: none;
+    border: 2px solid #B295FF;
+    border-radius: 8px;
+    width: 160px;   
+    height: 90px;
+    text-align: center;
+    font-size: 90px;
+    color: inherit; 
+    box-sizing: border-box;
+}
+#unit-input:focus {
+    outline: 2px solid #FFFFFF; /* Outline for focus */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* Optional glow effect */
+}
+
+/* Hide the spin buttons in number input */
+#unit-input::-webkit-outer-spin-button,
+#unit-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#unit-input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+    appearance: textfield; /* For other browsers */
+}
+
+#convert {
+    border: none;
+    background: #FFFFFF;
+    font-family: inherit;
+    padding: 14px 34px;
+    border-radius: 8px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    
+}
+
+
+
+/* SEPARATION FROM CONTAINER 2 */
+
+
+
+.container-two {
+    background: #F4F4F4;
+    padding: 20px;
+   
+}
+.length, .volume, .mass {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px
+
+}
